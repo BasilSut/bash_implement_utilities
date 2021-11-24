@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tee.dir/src/main.cpp.o CMakeFiles/tee.dir/src/tee.cpp.o -o tee 

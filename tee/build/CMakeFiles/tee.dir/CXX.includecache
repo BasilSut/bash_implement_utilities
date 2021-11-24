@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tee.h
+iostream
+-
+fstream
+-
+vector
+-
+string.h
+-
+
+/home/basil/tee/src/main.cpp
+tee.h
+/home/basil/tee/src/tee.h
+
+/home/basil/tee/src/tee.cpp
+tee.h
+/home/basil/tee/src/tee.h
+
